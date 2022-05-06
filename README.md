@@ -1,2 +1,2 @@
-# sargam
+# Sargam
  Discord Music Bot
