@@ -6,7 +6,8 @@
   "repository": "https://github.com/sovan182/sargam",
   "description": "Discord Music Bot Project",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "nodemon ./index.js"
   },
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
@@ -21,5 +22,8 @@
     "lyrics-finder": "^21.7.0",
     "reconlx": "^2.5.6",
     "ytdl-core": "^4.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
